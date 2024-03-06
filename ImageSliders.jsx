@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'react'
 
 import carImgOne from './assets/car-img-1.jpg';
 import carImgTwo from './assets/car-img-2.jpg';
