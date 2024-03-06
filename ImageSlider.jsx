@@ -51,7 +51,7 @@ function App() {
           {allCarImg.map((img, index) => (
             <button
               key={index}
-              className={`w-3 h-3 bg-${selectedButton === index ? 'gray-300' : 'gray-400'} rounded-full`}
+              className={`w-3 h-3 ${selectedButton === index ? 'bg-gray-300' : 'bg-gray-400'} rounded-full`}
               onClick={() => handleSelectedButton(index)}
             ></button>
           ))}
